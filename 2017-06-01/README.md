@@ -23,10 +23,10 @@ The basic commands in each mode. Many of these should also be available in vim-m
 * `:Tutor` Do this! _(only in Vim)_
 * Opening and closing the editor
   - Open: `vim`
-  - Quit: `:q`
-  - Quit all buffers `:qa`
+  - Quit: `:q` (closes vim/buffers)
+  - Quit all buffers `:qa` (closes all tabs)
 * Saving files and dismissing edits
-  - Save buffer and quit: `:wq` or `ZZ`
+  - Save buffer and quit: `:wq`, `:x` or `ZZ` 
   - Quit without saving: `:q!`
 * Modes: Normal/command, Edit/insert, Visual
 * Moving around quickly in normal mode (line-based and document)
@@ -36,6 +36,7 @@ The basic commands in each mode. Many of these should also be available in vim-m
   - Right: `l`
   - Backward and forward by sentence: `(` and `)`
   - Backward and forward by paragraph: `{` and `}`
+  - Go to the matching parenthesis or curly bracket: `%`
 * Moving in and out of normal and edit modes
   - From edit mode to normal mode: `<ESC>` (and `Ctrl-[`)
   - After the cursor: `a`
